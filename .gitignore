@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights (too large — stored on Google Drive)
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+adapters/adapter_model.safetensors
+adapters/adapter_config.json
+
+# Data files (stored on Google Drive)
+data/soc_train.json
+data/soc_eval.json
+data/eval_results.json
+
+# Node / Web
+node_modules/
+.next/
+dist/
+build/
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab / temp
+*.tmp
+/tmp/
+checkpoints/
