@@ -2,6 +2,7 @@
 
 > Most small businesses cannot afford a SOC.  
 > So I built one using AI.
+> Detects real-world cyber attacks from raw logs using a fine-tuned LLM in under few seconds.
 
 OpenSOC-AI is a lightweight, open-source security log analysis framework that uses a fine-tuned TinyLlama-1.1B model with LoRA (QLoRA) to automatically:
 
