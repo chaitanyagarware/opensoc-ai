@@ -47,6 +47,27 @@ opensoc-ai/
 
 ## 🚀 Quick Start
 
+## ⚡ Run in 5 Lines
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from peft import PeftModel
+
+base_model = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+adapter_path = "Chaitanyag01/opensoc-ai"
+
+tokenizer = AutoTokenizer.from_pretrained(base_model)
+model = AutoModelForCausalLM.from_pretrained(base_model)
+
+model = PeftModel.from_pretrained(model, adapter_path)
+
+input_text = "Failed login attempts detected from multiple IPs"
+
+inputs = tokenizer(input_text, return_tensors="pt")
+outputs = model.generate(**inputs, max_new_tokens=200)
+
+print(tokenizer.decode(outputs[0]))
+
 ### 1. Fine-tune (Google Colab)
 
 Open `notebooks/01_train.ipynb` in Google Colab with a **T4 GPU runtime**.
