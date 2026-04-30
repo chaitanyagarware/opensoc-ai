@@ -25,7 +25,7 @@ https://chaitanyagarware.github.io/opensoc-ai/
 ---
 
 ## 🚀 Demo
-(Add your demo.gif in assets/)
+![OpenSOC Demo](assets/demo.gif)
 
 ---
 
