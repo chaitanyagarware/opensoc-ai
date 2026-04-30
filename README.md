@@ -1,11 +1,22 @@
 # 🛡️ OpenSOC-AI
 
+> Most small businesses cannot afford a SOC.  
+> So I built one using AI.
 > **Democratizing Security Operations: An LLM-Based Log Analysis Framework for Resource-Constrained Organizations**
+
+OpenSOC-AI is a lightweight, local LLM-powered SOC automation system that analyzes security logs, detects threats, maps MITRE ATT&CK techniques, and generates actionable remediation — all on consumer hardware.
+
+📄 Paper: https://arxiv.org/abs/2604.26217  
+🌐 Live Demo: https://chaitanyagarware.github.io/opensoc-ai/
+
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Model: TinyLlama-1.1B](https://img.shields.io/badge/Model-TinyLlama--1.1B-blue)](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
 [![Fine-tuning: LoRA](https://img.shields.io/badge/Fine--tuning-LoRA%20%2F%20QLoRA-green)](https://github.com/huggingface/peft)
 [![Hardware: T4 GPU](https://img.shields.io/badge/Hardware-T4%20GPU-orange)](https://colab.research.google.com)
+
+
 
 OpenSOC-AI is a lightweight, open-source security log analyzer that uses a fine-tuned 1.1B parameter language model to automatically classify threats, map MITRE ATT&CK techniques, and generate remediation recommendations — all runnable on consumer-grade hardware.
 
