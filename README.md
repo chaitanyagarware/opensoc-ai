@@ -146,14 +146,18 @@ PeftModel.from_pretrained(base_model, adapter_path)   # correct reload
 
 ## 📄 Citation
 
-If you use OpenSOC-AI in your research, please cite:
+# OpenSOC-AI
+
+📄 Paper: https://arxiv.org/abs/2604.26217
+
+If you use this work, please cite:
 
 ```bibtex
-@article{opensoc2025,
-  title   = {Democratizing Security Operations: An LLM-Based Log Analysis Framework for Resource-Constrained Organizations},
-  author  = {[Your Name]},
-  year    = {2025},
-  note    = {MS Cybersecurity Capstone Project}
+@article{garware2026opensoc,
+  title={OpenSOC-AI: Automating Threat Classification in Security Operations Centers Using Fine-Tuned Language Models},
+  author={Garware, Chaitanya},
+  year={2026},
+  journal={arXiv preprint arXiv:2604.26217}
 }
 ```
 
