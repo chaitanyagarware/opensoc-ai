@@ -86,7 +86,7 @@ Open `notebooks/02_eval.ipynb` to run baseline vs fine-tuned evaluation on `soc_
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/opensoc-ai.git
+git clone https://github.com/chaitanyagarware/opensoc-ai.git
 cd opensoc-ai
 
 # Install dependencies
