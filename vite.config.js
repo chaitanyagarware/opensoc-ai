@@ -3,5 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/opensoc-ai/',
+  root: 'web',
+  build: {
+    outDir: '../dist'
+  },
+  base: '/opensoc-ai/'
 })
